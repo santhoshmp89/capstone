@@ -47,7 +47,7 @@ class UsernameForm extends Component {
           <form onSubmit={this.onSubmit}>
             <TextField
               type="text"
-              placeholder="Your full name"
+              placeholder="Your fullname"
               fullWidth
               onChange={this.onChange}
               style={styles.marginy}
